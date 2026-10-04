@@ -1,0 +1,14 @@
+# Local research and QA artifacts
+assets/*.pdf
+assets/thesis-pages/
+assets/thesis-pages-contact-sheet.jpg
+assets/projects/*.webp
+preview*.png
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Private notes
+LAUNCH-NOTES.md

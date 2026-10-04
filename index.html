@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Peters Automatisering — Python automation, dashboards and integrations</title>
+  <meta name="description" content="Casper Peters (Peters Automatisering, Eindhoven) builds Python automations, dashboards and API integrations for small businesses. Try the live demo: a messy spreadsheet turned into a checked report." />
+  <meta name="theme-color" content="#07090b" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_GB" />
+  <meta property="og:url" content="https://casperpeters.github.io/peters-automatisering-portfolio/" />
+  <meta property="og:title" content="Peters Automatisering — less manual work, more signal" />
+  <meta property="og:description" content="Python automations, clear dashboards and AI-assisted workflows for small businesses. Try the live demo." />
+  <meta property="og:image" content="https://casperpeters.github.io/peters-automatisering-portfolio/assets/og-cover.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Peters Automatisering — Python automation, dashboards and integrations" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://casperpeters.github.io/peters-automatisering-portfolio/assets/og-cover.jpg" />
+  <link rel="canonical" href="https://casperpeters.github.io/peters-automatisering-portfolio/" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=4" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Peters Automatisering",
+    "description": "Python automations, dashboards and API integrations for small businesses.",
+    "founder": { "@type": "Person", "name": "Casper Peters", "jobTitle": "Automation developer" },
+    "areaServed": "Worldwide",
+    "knowsLanguage": ["en", "nl"],
+    "address": { "@type": "PostalAddress", "addressLocality": "Eindhoven", "addressCountry": "NL" },
+    "sameAs": [
+      "https://www.upwork.com/freelancers/~014f37211e12df70b3",
+      "https://www.linkedin.com/in/casper-peters-a29796209",
+      "https://github.com/casperpeters"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#services">Skip to services</a>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="topbar shell">
+    <a class="mark" href="#top" aria-label="Peters Automatisering — back to top"><span>PA</span><i></i></a>
+    <nav aria-label="Main navigation">
+      <a class="nav-optional" href="#services">Services</a>
+      <a href="#demo">Live demo</a>
+      <a class="nav-optional" href="#work">Work</a>
+      <a class="nav-optional" href="#about">About</a>
+    </nav>
+    <div class="topbar-end">
+      <span class="status"><span></span> Eindhoven, Netherlands</span>
+      <a class="nav-cta mono" href="https://www.upwork.com/freelancers/~014f37211e12df70b3" target="_blank" rel="noreferrer">Hire me <i aria-hidden="true">↗</i></a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero shell">
+      <canvas id="neural-canvas" aria-hidden="true"></canvas>
+      <div class="hero-grid" aria-hidden="true"></div>
+
+      <div class="signal-legend mono">
+        <span>RAW DATA / CLEAN SIGNAL</span>
+        <span id="clock">00:00:00 CET</span>
+      </div>
+
+      <div class="hero-copy">
+        <p class="eyebrow mono"><span>01</span> PETERS AUTOMATISERING · PYTHON · DASHBOARDS · INTEGRATIONS</p>
+        <h1>Less manual work.<br><em>More signal.</em></h1>
+        <p class="intro">I help small businesses turn repetitive manual work into practical software: Python automations, clear dashboards and AI-assisted workflows. I'm Casper Peters, an applied physicist and software builder in Eindhoven.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#demo">Try the live demo <span>↘</span></a>
+          <a class="button ghost" href="https://www.upwork.com/freelancers/~014f37211e12df70b3" target="_blank" rel="noreferrer">Hire me on Upwork <span>↗</span></a>
+          <a class="button ghost" href="#work">Selected work <span>→</span></a>
+        </div>
+      </div>
+
+      <aside class="telemetry mono" aria-label="Signal controls">
+        <div class="telemetry-row"><span>FIELD</span><b>AUTOMATION</b></div>
+        <label class="telemetry-control" for="node-slider">
+          <span class="telemetry-control-head"><span>NODES</span><output id="node-count" for="node-slider">040</output></span>
+          <input id="node-slider" type="range" min="20" max="72" value="40" step="1" aria-label="Number of nodes" />
+        </label>
+        <label class="telemetry-control intensity-control" for="intensity-slider">
+          <span class="telemetry-control-head"><span>LIGHT</span><output id="intensity-value" for="intensity-slider">045%</output></span>
+          <input id="intensity-slider" type="range" min="10" max="85" value="45" step="1" aria-label="Signal light intensity" />
+        </label>
+        <div class="telemetry-row"><span>BASE</span><b>EINDHOVEN</b></div>
+      </aside>
+
+      <button class="motion-toggle mono" id="motion-toggle" type="button" aria-pressed="false">
+        <span class="toggle-icon">Ⅱ</span> PAUSE SIGNAL
+      </button>
+    </section>
+
+    <section class="proof-strip shell" aria-label="At a glance">
+      <div><b>3</b><span class="mono">public projects you can open</span></div>
+      <div><b>1</b><span class="mono">peer-reviewed paper (eLife)</span></div>
+      <div><b>12</b><span class="mono">automated tests on the demo logic</span></div>
+      <div><b>NL · EN</b><span class="mono">working languages</span></div>
+    </section>
+
+    <section class="services shell" id="services">
+      <p class="section-tag mono"><span>02</span> SERVICES</p>
+      <div class="split-head">
+        <h2>What I can build for you.</h2>
+        <p>Small, well-scoped projects with a clear deliverable. If a simple script is enough, I will say so instead of selling you a complex system.</p>
+      </div>
+
+      <div class="services-grid">
+        <article class="service">
+          <span class="mono service-index">01 / REPORTS</span>
+          <h3>Report &amp; spreadsheet automation</h3>
+          <p>Weekly Excel or CSV routines turned into a script or small tool: merge exports, clean and validate the data, produce the report.</p>
+          <dl>
+            <div><dt class="mono">Good fit if</dt><dd>someone copies numbers between files every week, or reports need checking before they go out.</dd></div>
+            <div><dt class="mono">You get</dt><dd>a script or small app, a run guide and sample output.</dd></div>
+          </dl>
+        </article>
+        <article class="service">
+          <span class="mono service-index">02 / DASHBOARDS</span>
+          <h3>Dashboards &amp; internal tools</h3>
+          <p>Clear dashboards on top of the data you already have — spreadsheets, CSV exports, databases or public APIs — plus small internal tools around them.</p>
+          <dl>
+            <div><dt class="mono">Good fit if</dt><dd>you want one view instead of five spreadsheets.</dd></div>
+            <div><dt class="mono">You get</dt><dd>a dashboard with documented data sources and a way to update it.</dd></div>
+          </dl>
+        </article>
+        <article class="service">
+          <span class="mono service-index">03 / INTEGRATIONS</span>
+          <h3>API integrations &amp; data pipelines</h3>
+          <p>Move information between the tools you already use: pull, transform, push — on a schedule, with errors logged instead of silently lost.</p>
+          <dl>
+            <div><dt class="mono">Good fit if</dt><dd>two systems do not talk to each other and people bridge the gap by hand.</dd></div>
+            <div><dt class="mono">You get</dt><dd>a working integration, configuration notes and an error log.</dd></div>
+          </dl>
+        </article>
+        <article class="service">
+          <span class="mono service-index">04 / AI WORKFLOWS</span>
+          <h3>AI-assisted workflows, scoped small</h3>
+          <p>Narrow, human-reviewed uses of language models: searching, summarising and organising documents or text. I will tell you when a plain script is the better answer.</p>
+          <dl>
+            <div><dt class="mono">Good fit if</dt><dd>you have a lot of text to sort, search or summarise, and a person will still check the result.</dd></div>
+            <div><dt class="mono">You get</dt><dd>a prototype with test examples and its limits written down.</dd></div>
+          </dl>
+        </article>
+      </div>
+      <p class="not-a-fit"><span class="mono">NOT A FIT</span> Open-ended business-critical systems, 24/7 support, or anything that means getting around a website's security or terms.</p>
+    </section>
+
+    <section class="demo shell" id="demo">
+      <p class="section-tag mono"><span>03</span> LIVE DEMO</p>
+      <div class="split-head">
+        <h2>From a messy export to a checked report.</h2>
+        <p>A typical small-business chore: an order export with the usual problems. Press the button and watch the automation fix what is safe to fix, set aside what needs a person, and build the report.</p>
+      </div>
+      <p class="demo-note mono"><span class="dot-live"></span> SYNTHETIC DATA · RUNS ENTIRELY IN YOUR BROWSER · NOTHING IS UPLOADED</p>
+
+      <noscript><p class="panel-note">The live demo needs JavaScript. The rest of this page works without it.</p></noscript>
+
+      <div class="demo-app" id="demo-app">
+        <div class="demo-toolbar">
+          <button class="button primary" id="demo-run" type="button">Run the automation <span>▶</span></button>
+          <button class="button ghost" id="demo-reset" type="button">Reset <span>↺</span></button>
+          <label class="button ghost file-button">Try my own CSV <span>↑</span>
+            <input id="demo-file" class="sr-only" type="file" accept=".csv,text/csv" />
+          </label>
+          <button class="button ghost" id="demo-sample" type="button">Sample CSV <span>↓</span></button>
+        </div>
+
+        <ol class="pipeline" aria-label="Automation steps">
+          <li data-state="idle"><span class="step-n mono">01</span><b>Load</b><span class="step-detail mono"></span></li>
+          <li data-state="idle"><span class="step-n mono">02</span><b>Validate</b><span class="step-detail mono"></span></li>
+          <li data-state="idle"><span class="step-n mono">03</span><b>Clean</b><span class="step-detail mono"></span></li>
+          <li data-state="idle"><span class="step-n mono">04</span><b>Aggregate</b><span class="step-detail mono"></span></li>
+          <li data-state="idle"><span class="step-n mono">05</span><b>Report</b><span class="step-detail mono"></span></li>
+        </ol>
+
+        <p class="demo-status mono" id="demo-status" role="status" aria-live="polite">Loading the demo…</p>
+
+        <div class="demo-grid">
+          <section class="demo-panel" aria-labelledby="demo-in-title">
+            <header class="panel-head">
+              <h3 id="demo-in-title" class="mono">Input</h3>
+              <span class="mono panel-meta" id="input-meta"></span>
+            </header>
+            <div class="table-scroll" tabindex="0" role="region" aria-label="Input table, scrollable">
+              <table id="input-table"></table>
+            </div>
+            <p class="legend mono" aria-hidden="true">
+              <span><i class="swatch fixed"></i>auto-fixed</span>
+              <span><i class="swatch warning"></i>please check</span>
+              <span><i class="swatch blocked"></i>set aside</span>
+              <span><i class="swatch removed"></i>duplicate removed</span>
+            </p>
+          </section>
+
+          <section class="demo-panel" aria-labelledby="demo-out-title">
+            <header class="panel-head">
+              <h3 id="demo-out-title" class="mono">Output</h3>
+              <div class="tabs" role="tablist" aria-label="Output views">
+                <button role="tab" id="tab-report" data-tab="report" aria-selected="true" aria-controls="panel-report" type="button" class="mono">Report</button>
+                <button role="tab" id="tab-issues" data-tab="issues" aria-selected="false" aria-controls="panel-issues" tabindex="-1" type="button" class="mono">Issues<span class="count"></span></button>
+                <button role="tab" id="tab-clean" data-tab="clean" aria-selected="false" aria-controls="panel-clean" tabindex="-1" type="button" class="mono">Clean data<span class="count"></span></button>
+                <button role="tab" id="tab-quarantine" data-tab="quarantine" aria-selected="false" aria-controls="panel-quarantine" tabindex="-1" type="button" class="mono">Set aside<span class="count"></span></button>
+              </div>
+            </header>
+            <div class="tab-panels">
+              <div role="tabpanel" id="panel-report" aria-labelledby="tab-report"></div>
+              <div role="tabpanel" id="panel-issues" aria-labelledby="tab-issues" hidden></div>
+              <div role="tabpanel" id="panel-clean" aria-labelledby="tab-clean" hidden></div>
+              <div role="tabpanel" id="panel-quarantine" aria-labelledby="tab-quarantine" hidden></div>
+            </div>
+            <div class="export-row">
+              <button class="text-button mono" id="export-clean" type="button" disabled>Clean CSV ↓</button>
+              <button class="text-button mono" id="export-quarantine" type="button" disabled>Set-aside CSV ↓</button>
+              <button class="text-button mono" id="export-report" type="button" disabled>Report (HTML) ↓</button>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <div class="demo-points">
+        <div><span class="mono">01 / SAFE FIXES</span><h3>Obvious problems fix themselves</h3><p>Mixed date formats, “€18,50” prices, “nederland” versus “Netherlands”, stray spaces and exact duplicates are corrected, and every change is logged as before → after.</p></div>
+        <div><span class="mono">02 / NO GUESSING</span><h3>Doubtful rows go to a person</h3><p>A missing customer, a negative quantity or an impossible date is set aside with the reason. A price ten times too high is kept but flagged for review.</p></div>
+        <div><span class="mono">03 / CHECKABLE</span><h3>Nothing disappears silently</h3><p>Rows in always equal clean rows plus duplicates plus set-aside rows. Totals are calculated in whole cents, and the logic is covered by automated tests.</p></div>
+      </div>
+      <p class="demo-foot">Want to see it with your own layout? Use <b>Try my own CSV</b> with the columns <code>order_id, order_date, customer, country, product, qty, unit_price</code> (small files only, processed locally). A real project adapts the same approach to your files, your rules and your tools.</p>
+    </section>
+
+    <section class="work shell" id="work">
+      <div class="section-head">
+        <div>
+          <p class="section-tag mono"><span>04</span> PROOF OF WORK</p>
+          <h2>Three projects I built myself.</h2>
+        </div>
+        <p class="microcopy mono">PERSONAL AND RESEARCH PROJECTS · NOT CLIENT WORK</p>
+      </div>
+
+      <article class="case case-featured" id="migratiemonitor">
+        <div class="case-visual">
+          <img src="assets/projects/migratiemonitor.jpg" alt="MigratieMonitor dashboard with current CBS status, headline figures and links to trends and origin data" width="1200" height="630" loading="lazy">
+          <div class="visual-label mono"><span>LIVE DATA</span><span>PERSONAL PROJECT</span></div>
+        </div>
+        <div class="case-content">
+          <div class="case-index mono">PROJECT / 01 · DASHBOARD</div>
+          <div class="case-title-row">
+            <h3>MigratieMonitor</h3>
+            <span class="case-year mono">2026</span>
+          </div>
+          <p class="case-lede">A dashboard that reads current Dutch migration statistics straight from the CBS public API.</p>
+          <p class="case-shows"><span class="mono">WHAT THIS SHOWS</span> Turning an official data source into a clear, responsive dashboard — the same pattern as a dashboard on your own data.</p>
+          <div class="evidence-grid">
+            <div><span class="mono">CONTEXT</span><p>The relevant CBS statistics are split across datasets with different time periods and scopes. Monthly national figures and annual migration motives need to remain distinct.</p></div>
+            <div><span class="mono">WORK</span><p>I selected the datasets and built the data transforms, charts, responsive interface and deployment.</p></div>
+            <div><span class="mono">CURRENT VERSION</span><p>Monthly trends, origin regions and countries, and annual migration motives, with links to the underlying CBS tables.</p></div>
+          </div>
+          <div class="case-tags mono"><span>CBS ODATA</span><span>DASHBOARD UX</span><span>CHART.JS</span><span>GITHUB PAGES</span></div>
+          <div class="case-actions">
+            <a class="text-link" href="https://casperpeters.github.io/cbs-migratie-dashboard/" target="_blank" rel="noreferrer">Open the dashboard <span>↗</span></a>
+            <a class="text-link muted-link" href="https://github.com/casperpeters/cbs-migratie-dashboard" target="_blank" rel="noreferrer">View source <span>↗</span></a>
+          </div>
+        </div>
+      </article>
+
+      <article class="case case-compact" id="bridgetafel">
+        <div class="case-visual play-visual">
+          <img src="assets/projects/bridgetafel-play.jpg" alt="Active Bridgetafel game in the play phase with an open dummy, cards in the current trick, a 3 diamonds contract and the play plan" width="1800" height="900" loading="lazy">
+        </div>
+        <div class="case-content">
+          <div class="case-index mono">PROJECT / 02 · TESTED PRODUCT</div>
+          <div class="case-title-row">
+            <h3>Bridgetafel</h3>
+            <span class="case-year mono">ACTIVE</span>
+          </div>
+          <p class="case-lede">An interactive web app for learning bridge through short lessons, practice hands and complete deals.</p>
+          <p class="case-shows"><span class="mono">WHAT THIS SHOWS</span> Real rules turned into working software, with unit and Playwright tests so changes do not break what already works.</p>
+          <details class="project-details" open>
+            <summary class="mono">PROJECT DETAILS <span aria-hidden="true">+</span></summary>
+            <div class="evidence-grid">
+              <div><span class="mono">CONTEXT</span><p>Bridge beginners need to learn rules and conventions while also making decisions at the table.</p></div>
+              <div><span class="mono">WORK</span><p>I designed and built the app, including Dutch NBB Five-card Major bidding logic, practice hands, explanations and the review flow.</p></div>
+              <div><span class="mono">CURRENT VERSION</span><p>Covers bidding, all 13 tricks and a post-game review of the contract, score and key decisions.</p></div>
+            </div>
+          </details>
+          <div class="case-tags mono"><span>VANILLA JS</span><span>DOMAIN LOGIC</span><span>PLAYWRIGHT</span><span>BEGINNER UX</span></div>
+          <div class="case-actions">
+            <a class="text-link" href="https://casperpeters.github.io/bridge/" target="_blank" rel="noreferrer">Open the live app <span>↗</span></a>
+            <a class="text-link muted-link" href="https://github.com/casperpeters/bridge" target="_blank" rel="noreferrer">View source <span>↗</span></a>
+          </div>
+        </div>
+      </article>
+
+      <article class="case case-compact" id="neurophysics">
+        <div class="case-visual paper-visual">
+          <a class="paper-header-link" href="https://elifesciences.org/articles/98489" target="_blank" rel="noreferrer" aria-label="Read the official eLife paper">
+            <img src="assets/projects/neurophysics-paper-header.png" alt="Official eLife paper header with the article title, author list including Casper Peters, affiliation and DOI" width="1716" height="654" loading="lazy">
+          </a>
+        </div>
+        <div class="case-content">
+          <div class="case-index mono">PROJECT / 03 · LARGE-DATA ANALYSIS</div>
+          <div class="case-title-row">
+            <h3>Whole-brain data analysis</h3>
+            <span class="case-year mono">2020—2022</span>
+          </div>
+          <p class="case-lede">My MSc research looked at temporal structure in whole-brain neural recordings from zebrafish.</p>
+          <p class="case-shows"><span class="mono">WHAT THIS SHOWS</span> Careful analysis of large datasets in Python, published after peer review in eLife.</p>
+          <details class="project-details" open>
+            <summary class="mono">PROJECT DETAILS <span aria-hidden="true">+</span></summary>
+            <div class="evidence-grid">
+              <div><span class="mono">CONTEXT</span><p>Recordings of roughly 100,000 neurons. The task: identify neural assemblies and describe how their activity changed over time.</p></div>
+              <div><span class="mono">WORK</span><p>I analysed the data in Python, used dimensionality reduction and ran machine learning experiments on GPU systems.</p></div>
+              <div><span class="mono">OUTPUT</span><p>The research contributed to a peer-reviewed eLife paper. The associated code and data are public.</p></div>
+            </div>
+          </details>
+          <div class="case-tags mono"><span>PYTHON</span><span>PYTORCH</span><span>GPU</span><span>PROBABILISTIC ML</span></div>
+          <div class="case-actions">
+            <a class="text-link" href="https://elifesciences.org/articles/98489" target="_blank" rel="noreferrer">Read the eLife paper <span>↗</span></a>
+            <a class="text-link muted-link" href="https://github.com/benglitz/Zebrafish_RTRBM" target="_blank" rel="noreferrer">View code and data <span>↗</span></a>
+          </div>
+          <p class="source-caption">Official eLife paper header: Quiroz Monnens, Peters et al.</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="process shell" id="process">
+      <p class="section-tag mono"><span>05</span> PROCESS</p>
+      <div class="principles-head">
+        <h2>How a project runs.</h2>
+        <p>Most work starts by making an unclear task concrete enough to test. Four steps, no surprises.</p>
+      </div>
+      <ol class="steps-grid">
+        <li><span class="mono">01 / SCOPE</span><h3>Write it down first</h3><p>We agree on the inputs, the output you want and how you will judge it done. One page, before any work starts.</p></li>
+        <li><span class="mono">02 / BUILD SMALL</span><h3>Show something early</h3><p>I build on a sample of your data first, show you the result, then run it on the full thing.</p></li>
+        <li><span class="mono">03 / HAND OVER</span><h3>You can run it without me</h3><p>Code, a short run guide and a recorded walkthrough, so the work does not depend on me being around.</p></li>
+        <li><span class="mono">04 / SUPPORT</span><h3>Fixes are included</h3><p>Defects in what I delivered get fixed. Changes and ongoing maintenance are agreed separately.</p></li>
+      </ol>
+      <div class="data-box">
+        <span class="mono">HOW I HANDLE YOUR DATA</span>
+        <ul>
+          <li>I start with sample or anonymised data wherever possible.</li>
+          <li>Your data stays in the systems we agree on. I do not paste it into third-party AI tools unless you have approved that.</li>
+          <li>I am happy to sign an NDA. Ownership of the delivered work is agreed in writing before we start.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="about shell" id="about">
+      <p class="section-tag mono"><span>06</span> ABOUT</p>
+      <div class="about-grid">
+        <figure class="portrait">
+          <img src="assets/casper.jpg" alt="Casper Peters, in a white shirt, smiling, arms crossed" width="1090" height="1443" loading="lazy">
+        </figure>
+        <div class="about-copy">
+          <h2>Hi, I'm Casper.</h2>
+          <p>I'm an applied physicist from Eindhoven, with an MSc in Neurophysics and a BSc in Applied Physics. I have analysed recordings of around 100,000 neurons in Python, and I am used to finding the cause of a problem in a complex system before changing anything.</p>
+          <p>Now I build small, dependable automation for businesses that are tired of manual work. I use AI-assisted development, and I stay responsible for reviewing and testing everything I deliver.</p>
+          <dl class="facts">
+            <div><dt class="mono">Based in</dt><dd>Eindhoven, Netherlands</dd></div>
+            <div><dt class="mono">Languages</dt><dd>Dutch, English</dd></div>
+            <div><dt class="mono">Time zone</dt><dd>Central European Time</dd></div>
+            <div><dt class="mono">Tools</dt><dd>Python, JavaScript, Excel, Git, Playwright</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq shell" id="faq">
+      <p class="section-tag mono"><span>07</span> QUESTIONS</p>
+      <h2>Before you write.</h2>
+      <div class="faq-list">
+        <details>
+          <summary>How do we start?</summary>
+          <p>Send a short message on Upwork: what goes in, what should come out, and how it is done today. I reply with questions or a scoped proposal.</p>
+        </details>
+        <details>
+          <summary>What does it cost?</summary>
+          <p>Small projects are priced as a fixed fee for a clearly defined deliverable; ongoing work is hourly. You get the price before we start, and any extra cost (hosting, API fees) is named up front.</p>
+        </details>
+        <details>
+          <summary>How long does a small project take?</summary>
+          <p>Usually days rather than weeks, depending on the scope and how quickly I can get sample data.</p>
+        </details>
+        <details>
+          <summary>Do you use AI?</summary>
+          <p>Yes, as a development tool and, when it genuinely helps, inside workflows. I review and test everything I deliver, and I will tell you when a plain script is the better answer.</p>
+        </details>
+        <details>
+          <summary>Can I try it with my own file?</summary>
+          <p>The demo above accepts a small CSV with the columns order_id, order_date, customer, country, product, qty and unit_price. It runs in your browser and nothing is uploaded.</p>
+        </details>
+        <details>
+          <summary>What do you not do?</summary>
+          <p>Anything that gets around a website's security or terms, collecting personal data without a lawful basis, and business-critical systems that need round-the-clock support.</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="contact shell" id="contact">
+      <div class="contact-glow" aria-hidden="true"></div>
+      <p class="section-tag mono"><span>08</span> HIRE ME</p>
+      <h2>Have a repetitive task or a reporting bottleneck?</h2>
+      <p class="contact-intro">Tell me how it works today and what you want to improve. I will reply with questions or a clear, scoped proposal.</p>
+      <a href="https://www.upwork.com/freelancers/~014f37211e12df70b3" target="_blank" rel="noreferrer" class="contact-link">
+        <span class="contact-action-label mono">MESSAGE ME ON UPWORK</span>
+        <strong>Casper P. — Python &amp; AI Automation</strong>
+        <span class="contact-arrow">↗</span>
+      </a>
+      <p class="contact-note">Contracts and payments go through Upwork, so both sides are protected.</p>
+      <div class="contact-footer mono">
+        <a href="https://www.linkedin.com/in/casper-peters-a29796209" target="_blank" rel="noreferrer">LINKEDIN ↗</a>
+        <a href="https://github.com/casperpeters" target="_blank" rel="noreferrer">GITHUB ↗</a>
+        <span>© 2026 PETERS AUTOMATISERING · CASPER PETERS</span>
+      </div>
+    </section>
+  </main>
+
+  <script src="pipeline.js?v=1"></script>
+  <script src="sample-data.js?v=1"></script>
+  <script src="demo.js?v=3"></script>
+  <script src="app.js?v=2"></script>
+</body>
+</html>
