@@ -1,4 +1,4 @@
-# Peters Automatisering — portfolio site
+# Peters Data & Automations — portfolio site
 
 A single-page portfolio for Casper Peters' freelance automation business (Eindhoven, NL), built to be linked from an Upwork profile. It is a static site: no build step, no dependencies, no tracking.
 
